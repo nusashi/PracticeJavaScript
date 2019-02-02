@@ -1,0 +1,44 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": false
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 2015
+    },
+    "globals": {
+        "e": false
+    },
+    "root": true,
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-undef": "warn",
+        "no-extra-semi": "warn",
+        "space-before-blocks": [
+            "warn", 
+            { 
+                "functions": "always" ,
+                "keywords": "always" ,
+                "classes": "always" 
+            }
+        ],
+        "no-console": "off"
+    }
+}
