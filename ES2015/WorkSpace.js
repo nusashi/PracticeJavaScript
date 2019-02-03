@@ -1,5 +1,7 @@
-import * as name from './HelloWorld';
+import * as Hello from './HelloWorld.js';
 
-(window.onload = function() {
-	name.func();
-})();
+
+
+window.onload = () => {
+	Hello.func();
+};

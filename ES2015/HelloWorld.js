@@ -1,4 +1,1 @@
-
-let func = () => { console.log('HelloWorld');};
-
-export{func};
+export function func() { window.alert('HelloWorld');}
