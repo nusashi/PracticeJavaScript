@@ -1,1 +1,4 @@
-window.alert('HelloWorld');
+
+let func = () => { console.log('HelloWorld');};
+
+export{func};

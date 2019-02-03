@@ -1,7 +1,5 @@
-'use strict';
+import * as name from './HelloWorld';
 
-let kon = () => {
-	window.alert('hello');
-};
-
-kon();
+(window.onload = function() {
+	name.func();
+})();
