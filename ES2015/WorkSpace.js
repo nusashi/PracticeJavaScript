@@ -1,7 +1,11 @@
-'use strict';
+import Hello from './HelloWorld.js';
+import * as Module from './TemplateModule.js';
+import * as Class from './TemplateClass.js';
 
-let kon = () => {
-	window.alert('hello');
+
+window.onload = () => {
+	Hello();
+	Module.templateFunc1();
+	let tempInstance = new Class.TemplateClass('test');
+	tempInstance.setTemplateValue('Test');
 };
-
-kon();
