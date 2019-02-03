@@ -7,4 +7,5 @@ window.onload = () => {
 	Hello();
 	Module.templateFunc1();
 	let tempInstance = new Class.TemplateClass('test');
+	tempInstance.setTemplateValue('Test');
 };
