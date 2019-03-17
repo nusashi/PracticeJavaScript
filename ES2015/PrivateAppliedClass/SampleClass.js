@@ -1,9 +1,9 @@
 'use strict';
-import ns from './namespace,js';
+import ns from './namespace.js';
  
 const privates = ns();
  
-class Foo {
+export default class Foo {
 	constructor() {
 		const self = privates(this);
 		self.privateProp = 1;
